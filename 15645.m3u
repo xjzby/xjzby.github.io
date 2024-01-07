@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 #EXTINF:-1 group-title="央视频道,#genre#",CCTV1
 http://123.154.119.204:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://180.101.226.42:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://180.158.145.181:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://113.120.108.129:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://175.13.203.202:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://221.233.192.152:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://111.225.95.124:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://171.12.189.252:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://61.178.227.57:9901/tsfile/live/0001_1.m3u8?key=txiptv#http://42.176.154.142:9901/tsfile/live/1156_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视频道,#genre#",CCTV2
