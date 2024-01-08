@@ -2,17 +2,17 @@
 #EXTINF:-1,电影网
 http://123.60.111.12:4567/1905.php
 #EXTINF:-1 group-title="央视",CCTV1
-http://180.158.145.181:9901/tsfile/live/0001_1.m3u8?key=txiptv
+http://61.178.227.57:9901/tsfile/live/0001_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV2
 http://61.178.227.57:9901/tsfile/live/0002_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV3
 http://123.154.119.204:9901/tsfile/live/0003_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV4
-http://180.158.145.181:9901/tsfile/live/0004_1.m3u8?key=txiptv
+http://111.225.95.124:9901/tsfile/live/faacts/0004_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV5
 http://123.154.119.204:9901/tsfile/live/0005_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV5+
-http://171.12.189.252:9901/tsfile/live/0127_1.m3u8?key=txiptv
+http://61.178.227.57:9901/tsfile/live/0141_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV6
 http://123.154.119.204:9901/tsfile/live/0006_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV7
