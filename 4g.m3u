@@ -2,19 +2,19 @@
 #EXTINF:-1,电影网
 http://123.60.111.12:4567/1905.php
 #EXTINF:-1 group-title="央视",CCTV1
-http://180.158.145.181:9901/tsfile/live/0001_1.m3u8?key=txiptv
+http://61.178.227.57:9901/tsfile/live/0001_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV2
 http://61.178.227.57:9901/tsfile/live/0002_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV3
 http://123.154.119.204:9901/tsfile/live/0003_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV4
-http://180.158.145.181:9901/tsfile/live/0004_1.m3u8?key=txiptv
+http://111.225.95.124:9901/tsfile/live/faacts/0004_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV5
 http://123.154.119.204:9901/tsfile/live/0005_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV5+
-http://171.12.189.252:9901/tsfile/live/0127_1.m3u8?key=txiptv
+http://61.178.227.57:9901/tsfile/live/0141_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV6
-http://123.154.119.204:9901/tsfile/live/0006_1.m3u8?key=txiptv
+http://61.178.227.57:9901/tsfile/live/0006_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV7
 http://123.154.119.204:9901/tsfile/live/0007_1.m3u8?key=txiptv
 #EXTINF:-1 group-title="央视",CCTV8
@@ -411,3 +411,11 @@ http://stream.qhbtv.com/qhds/sd/live.m3u8?_upt=b5e7831b1701517902
 http://61.244.22.5/ch4/sport_ch4.live/chunklist_w1501922041.m3u8
 #EXTINF:-1,潞城电视台
 http://59.48.42.6:62204/lucheng.m3u8?zshanxd
+#EXTINF:-1 tvg-id="上海外语" tvg-name="上海外语" tvg-logo="https://epg.112114.xyz/logo/上海外语.png" group-title="🥞 自建8M(可回看)",上海外语
+http://www.51romzj.xyz/diyroms/dll/8mgqhk.php?/PLTV/&ip=&id=shics
+#EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://epg.112114.xyz/logo/上海都市.png" group-title="🥞 自建8M(可回看)",上海都市
+http://www.51romzj.xyz/diyroms/dll/8mgqhk.php?/PLTV/&ip=&id=shds
+#EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" tvg-logo="https://epg.112114.xyz/logo/上海教育.png" group-title="🥞 自建8M(可回看)",上海教育
+http://www.51romzj.xyz/diyroms/dll/8mgqhk.php?/PLTV/&ip=&id=shjy
+#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://epg.112114.xyz/logo/上海新闻综合.png" group-title="🥞 自建8M(可回看)",上海新闻综合
+http://www.51romzj.xyz/diyroms/dll/8mgqhk.php?/PLTV/&ip=&id=shxwzh
