@@ -1,44 +1,42 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
 #EXTINF:-1,电影网
 http://123.60.111.12:4567/1905.php
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV1" tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV-1
-http://123.60.111.12/migu.php?id=cctv1
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV1" tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV-1
-http://123.60.111.12/migu.php?id=cctv1b
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV2" tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视",CCTV-2
-http://123.60.111.12/migu.php?id=cctv2
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV3" tvg-id="CCTV3" tvg-name="CCTV3" group-title="央视",CCTV-3
-http://123.60.111.12/migu.php?id=cctv3
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV4" tvg-id="CCTV4" tvg-name="CCTV4" group-title="央视",CCTV-4
-http://123.60.111.12/migu.php?id=cctv4
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV4欧洲" tvg-id="CCTV4欧洲" tvg-name="CCTV4欧洲" group-title="央视",CCTV-4欧洲
-http://123.60.111.12/migu.php?id=cctv4o
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV4美洲" tvg-id="CCTV4美洲" tvg-name="CCTV4美洲" group-title="央视",CCTV-4美洲
-http://123.60.111.12/migu.php?id=cctv4a
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV5" tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视",CCTV-5
-http://123.60.111.12/migu.php?id=cctv5
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV5" tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视",CCTV-5
-http://123.60.111.12/migu.php?id=cctv5b
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/东方卫视" tvg-id="东方卫视" tvg-name="东方卫视" group-title="卫视",东方卫视
-http://123.60.111.12/migu.php?id=dfws
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/东方卫视" tvg-id="东方卫视" tvg-name="东方卫视" group-title="卫视",东方卫视
-http://123.60.111.12/migu.php?id=dfws2
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/重庆卫视" tvg-id="重庆卫视" tvg-name="重庆卫视" group-title="卫视",重庆卫视
-http://123.60.111.12/migu.php?id=cqws
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/吉林卫视" tvg-id="吉林卫视" tvg-name="吉林卫视" group-title="卫视",吉林卫视
-http://123.60.111.12/migu.php?id=jlws
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/辽宁卫视" tvg-id="辽宁卫视" tvg-name="辽宁卫视" group-title="卫视",辽宁卫视
-http://123.60.111.12/migu.php?id=lnws
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/内蒙古卫视" tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" group-title="卫视",内蒙古卫视
-http://123.60.111.12/migu.php?id=nmws
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/宁夏卫视" tvg-id="宁夏卫视" tvg-name="宁夏卫视" group-title="卫视",宁夏卫视
-http://123.60.111.12/migu.php?id=nxws
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/甘肃卫视" tvg-id="甘肃卫视" tvg-name="甘肃卫视" group-title="卫视",甘肃卫视
-http://123.60.111.12/migu.php?id=gsws
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/青海卫视" tvg-id="青海卫视" tvg-name="青海卫视" group-title="卫视",青海卫视
-http://123.60.111.12/migu.php?id=qhws
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/山东卫视" tvg-id="山东卫视" tvg-name="山东卫视" group-title="卫视",山东卫视
-http://123.60.111.12/migu.php?id=sdws
+#EXTINF:-1 group-title="央视",CCTV1
+http://180.158.145.181:9901/tsfile/live/0001_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视",CCTV2
+http://61.178.227.57:9901/tsfile/live/0002_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视",CCTV3
+http://123.154.119.204:9901/tsfile/live/0003_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视",CCTV4
+http://180.158.145.181:9901/tsfile/live/0004_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视",CCTV5
+http://123.154.119.204:9901/tsfile/live/0005_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",江苏卫视
+http://180.101.226.42:9901/tsfile/live/0127_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",北京卫视
+http://180.158.145.181:9901/tsfile/live/0122_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",东方卫视
+http://180.158.145.181:9901/tsfile/live/0107_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",安徽卫视
+http://221.233.192.152:9901/tsfile/live/0130_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",广东卫视
+http://123.154.119.204:9901/tsfile/live/0125_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",深圳卫视
+http://175.13.203.202:9901/tsfile/live/0126_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",辽宁卫视
+http://123.154.119.204:9901/tsfile/live/0121_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",海南卫视
+http://171.12.189.252:9901/tsfile/live/0114_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="卫视",山东卫视
+http://123.154.119.204:9901/tsfile/live/0131_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="CGTN",CGTN Arabic
+https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
+#EXTINF:-1 group-title="CGTN",CGTN Documentary
+https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
+#EXTINF:-1 group-title="CGTN",CGTN Español
+https://livees.cgtn.com/1000e/prog_index.m3u8
+#EXTINF:-1 group-title="CGTN",CGTN Français
+https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
 #EXTINF:-1,舟山公共生活
 http://live1.plus.wifizs.cn/ggsh/sd/live.m3u8?zzhed
 #EXTINF:-1,绍兴新闻综合
@@ -47,8 +45,6 @@ http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8?zzhed
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1,鄞州1
 http://play-a2.quklive.com/live/1668501533304136.m3u8
-#EXTINF:-1,CEC国际健康
-http://play.cec-tv.com.cn/channel/cec-tv4.m3u8
 #EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/武汉新闻综合频道" tvg-id="武汉新闻综合频道" tvg-name="武汉新闻综合频道" group-title="地方频道",武汉新闻综合频道
 http://stream.appwuhan.com/1tzb/sd/live.m3u8
 #EXTINF:-1,武汉经济
