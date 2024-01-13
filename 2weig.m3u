@@ -3,10 +3,6 @@
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1,鄞州1
 http://play-a2.quklive.com/live/1668501533304136.m3u8
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/武汉新闻综合频道" tvg-id="武汉新闻综合频道" tvg-name="武汉新闻综合频道" group-title="地方频道",武汉新闻综合频道
-http://stream.appwuhan.com/1tzb/sd/live.m3u8
-#EXTINF:-1,武汉经济
-http://stream.appwuhan.com/4tzb/sd/live.m3u8
 #EXTINF:-1,江苏-南京信息
 http://live.nbs.cn/channels/njtv/xxpd/m3u8:500k/live.m3u8
 #EXTINF:-1,苏州4K
