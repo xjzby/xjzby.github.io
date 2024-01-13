@@ -3,6 +3,10 @@
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1,鄞州1
 http://play-a2.quklive.com/live/1668501533304136.m3u8
+#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/武汉新闻综合频道" tvg-id="武汉新闻综合频道" tvg-name="武汉新闻综合频道" group-title="地方频道",武汉新闻综合频道
+http://stream.appwuhan.com/1tzb/sd/live.m3u8
+#EXTINF:-1,武汉经济
+http://stream.appwuhan.com/4tzb/sd/live.m3u8
 #EXTINF:-1,江苏-南京信息
 http://live.nbs.cn/channels/njtv/xxpd/m3u8:500k/live.m3u8
 #EXTINF:-1,苏州4K
@@ -150,6 +154,8 @@ http://171.124.179.217:9999/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid
 http://171.124.179.217:9999/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/天津卫视" tvg-id="天津卫视" tvg-name="天津卫视" group-title="卫视",天津卫视
 http://171.124.179.217:9999/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,东方卫视-高清
+http://171.110.63.92:8181/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,上海卫视
 http://171.124.179.217:9999/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/江苏卫视" tvg-id="江苏卫视" tvg-name="江苏卫视" group-title="卫视",江苏卫视
