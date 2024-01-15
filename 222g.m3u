@@ -157,7 +157,7 @@ http://171.124.179.217:9999/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid
 #EXTINF:-1,东方卫视-高清
 http://171.110.63.92:8181/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,上海卫视
-http://171.124.179.217:9999/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
+http://180.158.145.181:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/江苏卫视" tvg-id="江苏卫视" tvg-name="江苏卫视" group-title="卫视",江苏卫视
 http://171.124.179.217:9999/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/深圳卫视" tvg-id="深圳卫视" tvg-name="深圳卫视" group-title="卫视",深圳卫视
@@ -374,12 +374,24 @@ http://stream.qhbtv.com/qhds/sd/live.m3u8?_upt=b5e7831b1701517902
 http://61.244.22.5/ch4/sport_ch4.live/chunklist_w1501922041.m3u8
 #EXTINF:-1,潞城电视台
 http://59.48.42.6:62204/lucheng.m3u8?zshanxd
-#EXTINF:-1,上海都市
-http://www.51romzj.xyz/diyroms/dll/8mgqhk.php?/PLTV/&ip=&id=shds
+#EXTINF:-1,上海都市剧场
+http://180.158.145.181:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,上海纪实
+http://180.158.145.181:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,上海法制天地
+http://180.158.145.181:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,上海教育
-http://www.51romzj.xyz/diyroms/dll/8mgqhk.php?/PLTV/&ip=&id=shjy
-#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://epg.112114.xyz/logo/上海新闻综合.png" group-title="🥞 自建8M(可回看)",上海新闻综合
-http://www.51romzj.xyz/diyroms/dll/8mgqhk.php?/PLTV/&ip=&id=shxwzh
+http://180.158.145.181:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,上海崇明综合
+http://180.158.145.181:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,五星体育
+http://180.158.145.181:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,上海电视剧
+http://180.158.145.181:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,上海新闻综合
+http://180.158.145.181:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,上海都市频道
+http://180.158.145.181:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,河北频道
 http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3944fff7fdd8f8caf6adce2c9a0ef126
 #EXTINF:-1,延边频道
