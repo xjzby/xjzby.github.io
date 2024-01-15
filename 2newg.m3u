@@ -101,8 +101,6 @@ http://czlive.czgd.tv:85/live/xnet.m3u8
 https://jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8
 #EXTINF:-1,邯郸科教频道
 https://jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8
-8
-#EXTM3U
 #EXTINF:-1,CCTV1-综合
 http://180.158.145.181:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV2-财经
