@@ -99,7 +99,6 @@ http://czlive.czgd.tv:85/live/xnet.m3u8
 https://jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8
 #EXTINF:-1,邯郸科教频道
 https://jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8
-#EXTM3U
 #EXTINF:-1 group-title="央视,#genre#",CCTV1
 http://110.86.15.66:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视,#genre#",CCTV2
