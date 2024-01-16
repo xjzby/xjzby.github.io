@@ -1,36 +1,14 @@
 #EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV1" tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1-综合
-http://171.124.179.217:9999/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV2" tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视",CCTV2-财经
-http://171.124.179.217:9999/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV3" tvg-id="CCTV3" tvg-name="CCTV3" group-title="央视",CCTV3-综艺
-http://171.124.179.217:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV4" tvg-id="CCTV4" tvg-name="CCTV4" group-title="央视",CCTV4-国际
-http://171.124.179.217:9999/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV5" tvg-id="CCTV5" tvg-name="CCTV5" group-title="央视",CCTV5-体育
-http://171.124.179.217:9999/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/湖北卫视" tvg-id="湖北卫视" tvg-name="湖北卫视" group-title="卫视",湖北卫视
-http://171.124.179.217:9999/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/山东卫视" tvg-id="山东卫视" tvg-name="山东卫视" group-title="卫视",山东卫视
-http://171.124.179.217:9999/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/河北卫视" tvg-id="河北卫视" tvg-name="河北卫视" group-title="卫视",河北卫视
-http://171.124.179.217:9999/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/广东卫视" tvg-id="广东卫视" tvg-name="广东卫视" group-title="卫视",广东卫视
-http://171.124.179.217:9999/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/黑龙江卫视" tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" group-title="卫视",黑龙江卫视
-http://171.124.179.217:9999/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/四川卫视" tvg-id="四川卫视" tvg-name="四川卫视" group-title="卫视",四川卫视
-http://171.124.179.217:9999/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/东南卫视" tvg-id="东南卫视" tvg-name="东南卫视" group-title="卫视",东南卫视
-http://171.124.179.217:9999/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/河南卫视" tvg-id="河南卫视" tvg-name="河南卫视" group-title="卫视",河南卫视
-http://171.124.179.217:9999/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,绍兴新闻综合
 http://live.shaoxing.com.cn/video/s10001-sxtv1/index.m3u8?zzhed
 #EXTINF:-1,舟山-普陀综合
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1,鄞州1
 http://play-a2.quklive.com/live/1668501533304136.m3u8
+#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/武汉新闻综合频道" tvg-id="武汉新闻综合频道" tvg-name="武汉新闻综合频道" group-title="地方频道",武汉新闻综合频道
+http://stream.appwuhan.com/1tzb/sd/live.m3u8
+#EXTINF:-1,武汉经济
+http://stream.appwuhan.com/4tzb/sd/live.m3u8
 #EXTINF:-1,江苏-南京信息
 http://live.nbs.cn/channels/njtv/xxpd/m3u8:500k/live.m3u8
 #EXTINF:-1,苏州4K
@@ -111,6 +89,34 @@ http://tylive.kan0512.com/norecord/norecord_csztv5.m3u8
 http://tylive.kan0512.com/norecord/norecord_csztv2.m3u8
 #EXTINF:-1,赣榆新闻综合频道
 http://ganyu-tv-hls.cm.jstv.com/ganyu-tv/ganyutv.m3u8
+#EXTINF:-1,CCTV1
+http://110.86.15.66:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,CCTV2
+http://110.86.15.66:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,CCTV3
+http://110.86.15.66:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,CCTV4
+http://110.86.15.66:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,CCTV5
+http://110.86.15.66:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,天津卫视
+http://110.86.15.66:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,河北卫视
+http://110.86.15.66:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,广东卫视
+http://110.86.15.66:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,山东卫视
+http://110.86.15.66:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,东南卫视
+http://110.86.15.66:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,湖北卫视
+http://110.86.15.66:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,黑龙江卫视
+http://110.86.15.66:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,贵州卫视
+http://110.86.15.66:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,安徽卫视
+http://110.86.15.66:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,连云港公共频道
 http://live.lyg1.com/ggpd/sd/live.m3u8
 #EXTINF:-1,连云港新闻综合频道
