@@ -13,7 +13,7 @@ http://suining-tv-hls.cm.jstv.com:80/suining-tv/suiningzh.m3u8
 http://live1.gatv.com.cn:85/live/XWZH.m3u8
 #EXTINF:-1,文山公共频道
 http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV1" tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1-综合
-http://171.124.179.217:9999/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="http://wtv.tools.yigechengzi.pro/prod/api/v1/tvg/logo/CCTV2" tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视",CCTV2-财经
-http://171.124.179.217:9999/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,CCTV1
+http://110.86.15.66:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,CCTV2
+http://110.86.15.66:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
