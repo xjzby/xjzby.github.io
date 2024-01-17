@@ -197,6 +197,10 @@ http://110.86.15.66:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
 http://110.86.15.66:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="卫视,#genre#",兵团卫视
 http://110.86.15.66:9901/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="卫视",上海卫视
+http://171.14.89.201:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="卫视",黑龙江卫视
+http://171.14.89.201:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,嘉佳卡通
 http://110.86.15.66:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,辽宁影视
