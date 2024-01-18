@@ -14,6 +14,6 @@ http://live1.gatv.com.cn:85/live/XWZH.m3u8
 #EXTINF:-1,文山公共频道
 http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/playlist.m3u8
 #EXTINF:-1 group-title="央视",CCTV1-综合
-http://1.196.224.3:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&down=1
+http://58.48.37.158:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视",CCTV2-财经
-http://1.196.224.3:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&down=1
+http://58.48.37.158:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
