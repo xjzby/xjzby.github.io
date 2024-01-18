@@ -90,29 +90,27 @@ http://tylive.kan0512.com/norecord/norecord_csztv2.m3u8
 #EXTINF:-1,赣榆新闻综合频道
 http://ganyu-tv-hls.cm.jstv.com/ganyu-tv/ganyutv.m3u8
 #EXTINF:-1 group-title="央视",CCTV1-综合
-http://1.196.224.3:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&down=1
+http://58.48.37.158:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视",CCTV2-财经
-http://1.196.224.3:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&down=1
+http://58.48.37.158:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视",CCTV3-综艺
-http://1.196.224.3:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="央视",CCTV4-国际
-http://1.196.224.3:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&down=1
+http://58.48.37.158:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视",CCTV4-中文国际
+http://58.48.37.158:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视",CCTV5-体育
-http://1.196.224.3:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="卫视",东南卫视
-http://1.196.224.3:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="卫视",广西卫视
-http://1.196.224.3:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="卫视",山西卫视
-http://1.196.224.3:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="卫视",旅游卫视
-http://1.196.224.3:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="卫视",吉林卫视
-http://1.196.224.3:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&down=1
-#EXTINF:-1 group-title="卫视",重庆卫视
-http://1.196.224.3:9901/tsfile/live/0126_2.m3u8?key=txiptv&playlive=1&down=1
+http://58.48.37.158:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="卫视",四川卫视
-http://1.196.224.3:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&down=1
+http://58.48.37.158:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="卫视",广西卫视
+http://58.48.37.158:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="卫视",贵州卫视
+http://58.48.37.158:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="卫视",江西卫视
+http://58.48.37.158:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="卫视",海南卫视
+http://58.48.37.158:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="卫视",吉林卫视
+http://58.48.37.158:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="卫视",上海卫视
 http://171.14.89.201:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="卫视",黑龙江卫视
