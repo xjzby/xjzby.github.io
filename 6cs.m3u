@@ -1,7 +1,7 @@
 ﻿#EXTM3U
 #EXTINF:-1 tvg-name="纯享4K" group-title="IPV6·4K",纯享 4K「IPV6」
 http://[2409:8087:2001:20:2800:0:df6e:eb10]:80/ott.mobaibox.com/PLTV/4/224/3221228242/index.m3u8
-#EXTINF:-1 tvg-name="CCTV1" group-title="IPV6·央视",CCTV1「IPV6」
-http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001022/index.m3u8?
-#EXTINF:-1 tvg-name="CCTV2" group-title="IPV6·央视",CCTV2「IPV6」
-http://[2409:8087:1e03:21::36]:6610/cms001/ch00000090990000001220/index.m3u8?
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道IPV6",CCTV-1 综合
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001022/index.m3u8
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道IPV6",CCTV-2 财经
+http://[2409:8087:1e03:21::2]:6060/cms001/ch00000090990000001220/index.m3u8
