@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml  catchup="append" catchup-source="?playseek=?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" 
+#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml 
 #EXTINF:-1,设备一台，超了屏蔽,新增补差价
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1,鄞州1
@@ -125,7 +125,7 @@ http://175.18.189.238:9902/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=
 http://175.18.189.238:9902/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视",CCTV8
 http://175.18.189.238:9902/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV9-纪录
+#EXTINF:-1 group-title="央视",CCTV9
 http://175.18.189.238:9902/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视",CCTV10
 http://175.18.189.238:9902/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
