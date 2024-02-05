@@ -1,5 +1,5 @@
-#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml
-#EXTINF:-1,支持俩设备，超了屏蔽
+#EXTM3U x-tvg-url=http://epg.51zmt.top:8000/cc.xml,http://epg.51zmt.top:8000/difang.xml 
+#EXTINF:-1,设备一台，超了屏蔽,新增补差价
 http://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1,鄞州1
 http://play-a2.quklive.com/live/1668501533304136.m3u8
@@ -109,39 +109,39 @@ http://czlive.czgd.tv:85/live/xnet.m3u8
 https://jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8
 #EXTINF:-1,邯郸科教频道
 https://jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8
-#EXTINF:-1 group-title="央视",CCTV1-综合
+#EXTINF:-1 group-title="央视",CCTV1
 http://175.18.189.238:9902/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV2-财经
+#EXTINF:-1 group-title="央视",CCTV2
 http://175.18.189.238:9902/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV3-综艺
+#EXTINF:-1 group-title="央视",CCTV3
 http://175.18.189.238:9902/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV4-国际
+#EXTINF:-1 group-title="央视",CCTV4
 http://175.18.189.238:9902/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV5-体育
+#EXTINF:-1 group-title="央视",CCTV5
 http://175.18.189.238:9902/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV6-电影
+#EXTINF:-1 group-title="央视",CCTV6
 http://175.18.189.238:9902/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV7-军农
+#EXTINF:-1 group-title="央视",CCTV7
 http://175.18.189.238:9902/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV8-电视剧
+#EXTINF:-1 group-title="央视",CCTV8
 http://175.18.189.238:9902/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV9-纪录
+#EXTINF:-1 group-title="央视",CCTV9
 http://175.18.189.238:9902/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV10-科教
+#EXTINF:-1 group-title="央视",CCTV10
 http://175.18.189.238:9902/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV11-戏曲
+#EXTINF:-1 group-title="央视",CCTV11
 http://175.18.189.238:9902/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV12-社会与法
+#EXTINF:-1 group-title="央视",CCTV12
 http://175.18.189.238:9902/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV13-新闻
+#EXTINF:-1 group-title="央视",CCTV13
 http://175.18.189.238:9902/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV14-少儿
+#EXTINF:-1 group-title="央视",CCTV14
 http://175.18.189.238:9902/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV15-音乐
+#EXTINF:-1 group-title="央视",CCTV15
 http://175.18.189.238:9902/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV-16 奥林匹克
+#EXTINF:-1 group-title="央视",CCTV-16
 http://175.18.189.238:9902/tsfile/live/1061_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV17-军农
+#EXTINF:-1 group-title="央视",CCTV17
 http://175.18.189.238:9902/tsfile/live/1042_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视",CCTV5+体育赛事
 http://175.18.189.238:9902/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
