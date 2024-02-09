@@ -123,6 +123,64 @@ http://175.18.189.238:9902/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=
 http://175.18.189.238:9902/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="卫视",宁夏卫视
 http://175.18.189.238:9902/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
+
+#EXTINF:0 CUID="1672" tvg-name="CCTV1" tvg-id="1" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/CCTV1.png" group-title="新年路线1，央视+卫视[通用]",CCTV1
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225777/1/index.m3u8?fmt=ts2hls
+#EXTINF:0 CUID="1673" tvg-name="CCTV2" tvg-id="2" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/CCTV2.png" group-title="新年路线1，央视+卫视[通用]",CCTV2
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225706/1/index.m3u8?fmt=ts2hls
+#EXTINF:0 CUID="1674" tvg-name="CCTV3" tvg-id="3" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/CCTV3.png" group-title="新年路线1，央视+卫视[通用]",CCTV3
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226008/1/index.m3u8?fmt=ts2hls
+#EXTINF:0 CUID="1675" tvg-name="CCTV4" tvg-id="4" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/CCTV4.png" group-title="新年路线1，央视+卫视[通用]",CCTV4
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225779/1/index.m3u8?fmt=ts2hls
+#EXTINF:0 CUID="1676" tvg-name="CCTV5" tvg-id="5" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/CCTV5.png" group-title="新年路线1，央视+卫视[通用]",CCTV5
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226024/1/index.m3u8?fmt=ts2hls
+#EXTINF:0 CUID="1697" tvg-name="广东卫视" tvg-id="33" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/guangdong.png" group-title="新年路线1，央视+卫视[通用]",广东卫视
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225720/1/index.m3u8?fmt=ts2hls
+#EXTINF:0 CUID="1698" tvg-name="深圳卫视" tvg-id="34" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/szws.png" group-title="新年路线1，央视+卫视[通用]",深圳卫视
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225712/1/index.m3u8?fmt=ts2hls
+#EXTINF:0 CUID="1700" tvg-name="湖北卫视" tvg-id="48" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/hubei.png" group-title="新年路线1，央视+卫视[通用]",湖北卫视
+http://zhblm.eatuo.com:808/hls/31/index.m3u8
+#EXTINF:0 CUID="1701" tvg-name="安徽卫视" tvg-id="32" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/anhui.png" group-title="新年路线1，央视+卫视[通用]",安徽卫视
+http://zhblm.eatuo.com:808/hls/34/index.m3u8
+#EXTINF:0 CUID="1702" tvg-name="河北卫视" tvg-id="45" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/hebei.png" group-title="新年路线1，央视+卫视[通用]",河北卫视
+http://zhblm.eatuo.com:808/hls/28/index.m3u8
+#EXTINF:0 CUID="1704" tvg-name="辽宁卫视" tvg-id="36" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/liaoning.png" group-title="新年路线1，央视+卫视[通用]",辽宁卫视
+http://zhblm.eatuo.com:808/hls/37/index.m3u8
+#EXTINF:0 CUID="1703" tvg-name="山东卫视" tvg-id="38" tvg-logo="https://raw.githubusercontent.com/Jennie324/PINKTV/main/Picon/shandong.png" group-title="新年路线1，央视+卫视[通用]",山东卫视
+http://39.136.18.199/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225728/1/index.m3u8?fmt=ts2hls
+
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="新年路线2，央视+卫视[通用]",CCTV1高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=488
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="新年路线2，央视+卫视[通用]",CCTV2高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=061
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="新年路线2，央视+卫视[通用]",CCTV3高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=062
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="新年路线2，央视+卫视[通用]",CCTV4高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=063
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="新年路线2，央视+卫视[通用]",CCTV5高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=064
+
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.112114.xyz/logo/广东卫视.png" group-title="新年路线2，央视+卫视[通用]",广东卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=092
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.112114.xyz/logo/东方卫视.png" group-title="新年路线2，央视+卫视[通用]",东方卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=093
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" group-title="新年路线2，央视+卫视[通用]",浙江卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=094
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://epg.112114.xyz/logo/吉林卫视.png" group-title="新年路线2，央视+卫视[通用]",吉林卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=097
+#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://epg.112114.xyz/logo/安徽卫视.png" group-title="新年路线2，央视+卫视[通用]",安徽卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=096
+#EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://epg.112114.xyz/logo/江西卫视.png" group-title="新年路线2，央视+卫视[通用]",江西卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=098
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.112114.xyz/logo/山东卫视.png" group-title="新年路线2，央视+卫视[通用]",山东卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=099
+#EXTINF:-1 tvg-id="贵州卫视" tvg-name="贵州卫视" tvg-logo="https://epg.112114.xyz/logo/贵州卫视.png" group-title="新年路线2，央视+卫视[通用]",贵州卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=101
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.112114.xyz/logo/深圳卫视.png" group-title="新年路线2，央视+卫视[通用]",深圳卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=100
+#EXTINF:-1 tvg-id="湖北卫视" tvg-name="湖北卫视" tvg-logo="https://epg.112114.xyz/logo/湖北卫视.png" group-title="新年路线2，央视+卫视[通用]",湖北卫视高清
+http://www.51romzj.top/moss/dll/dl/bfy.php?id=102
+
 #EXTINF:-1,连云港公共频道
 http://live.lyg1.com/ggpd/sd/live.m3u8
 #EXTINF:-1,连云港新闻综合频道
