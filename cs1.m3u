@@ -15,5 +15,3 @@ http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
 #EXTINF:-1 group-title="央视",CCTV1-综合
 http://175.18.189.238:9902/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视",CCTV2-财经
-http://175.18.189.238:9902/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
