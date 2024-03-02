@@ -99,7 +99,8 @@ https://jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8
 https://jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8
 
 
-
+#EXTINF:-1,tvg-id="上海五星体育" tvg-name="上海五星体育" tvg-logo="https://epg.112114.xyz/logo/上海五星体育.png" group-title="其他",五星体育HD
+http://222.71.11.180:4022/rtp/239.45.3.210:5140
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV1" tvg-id="CCTV1" tvg-name="CCTV1" group-title="央视",CCTV1
 http://hcc91.msns.cn:33213/udp/239.21.1.120:5002
 #EXTINF:-1 tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/CCTV2" tvg-id="CCTV2" tvg-name="CCTV2" group-title="央视",CCTV2
