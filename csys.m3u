@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1,CCTV1-综合
-http://180.158.145.181:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1,翡翠
+https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1,CCTV2-财经
 http://180.158.145.181:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1,CCTV3-综艺
