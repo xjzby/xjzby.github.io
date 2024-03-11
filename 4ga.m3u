@@ -259,12 +259,6 @@ https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 #EXTINF:-1  group-title="港澳",台视新闻
 http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-#EXTINF:-1  group-title="港澳",纬来体育
-https://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
-#EXTINF:-1  group-title="港澳",纬来体育
-https://cloud.yumixiu768.com/tmp/123.m3u8
-#EXTINF:-1  group-title="港澳",斗鱼4K影院
-http://mmitv.top/test/douyu.php?id=9249162
 #EXTINF:-1  group-title="港澳",蕃薯台
 http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
 #EXTINF:-1  group-title="港澳",TVBS新闻
@@ -291,10 +285,6 @@ rtmp://f13h.mine.nu/sat/tv051
 rtmp://f13h.mine.nu/sat/tv071
 #EXTINF:-1  group-title="港澳" tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/中视" tvg-id="中视" tvg-name="中视" group-title="🦄湾湾频道",中视
 rtmp://f13h.mine.nu/sat/tv091
-#EXTINF:-1  group-title="港澳",纬来育乐
-rtmp://f13h.mine.nu/sat/tv701
-#EXTINF:-1  group-title="港澳",纬来日本
-rtmp://f13h.mine.nu/sat/tv771
 #EXTINF:-1  group-title="港澳" tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/东森超视" tvg-id="东森超视" tvg-name="东森超视" group-title="🦄湾湾频道",东森超视
 rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1  group-title="港澳",ELEVEN体育1
@@ -331,10 +321,6 @@ http://stream.thmz.com/wxtv2/sd/live.m3u8?_upt=081040171706199780
 http://stream.thmz.com/wxtv4/sd/live.m3u8?_upt=95a5f0d51706199864
 #EXTINF:-1  group-title="港澳",无锡5套
 http://stream.thmz.com/wxtv5/sd/live.m3u8?_upt=31414f601706199828
-#EXTINF:-1  group-title="港澳",重温经典
-http://43.141.130.70/zycfcdn.gdwlcloud.com/PLTV/88888888/224/3221225563/index.m3u8
-#EXTINF:-1  group-title="港澳",重温经典
-http://mtw.so/5xS2Mh
 #EXTINF:-1  group-title="港澳",Bread TV面包台 (720p)
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1  group-title="港澳",凤凰中文
