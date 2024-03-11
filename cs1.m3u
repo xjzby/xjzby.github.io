@@ -13,7 +13,11 @@ http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel8/play
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh.m3u8?zjiangsd
 #EXTINF:-1,泗阳资讯频道
 http://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx.m3u8?zjiangsd
-#EXTINF:-1,CCTV1 group-title="央视+卫视1"
+#EXTINF:-1  group-title="央视+卫视1",CCTV1
 http://101.19.60.244:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1,CCTV2 group-title="央视+卫视1"
+#EXTINF:-1 group-title="央视+卫视1",CCTV2 
 http://101.19.60.244:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1  group-title="央视+卫视2",CCTV1-综合
+http://123.160.233.194:85/tsfile/live/0001_1.m3u8?key=txiptv
+#EXTINF:-1  group-title="央视+卫视2",CCTV2-财经
+http://123.160.233.194:85/tsfile/live/0002_1.m3u8?key=txiptv
