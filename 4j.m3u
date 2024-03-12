@@ -129,6 +129,42 @@ http://101.19.60.244:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视+卫视1",CCTV15
 http://101.19.60.244:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 
+#EXTINF:-1 group-title="央视卫视3",中央1高清
+http://111.225.113.218:808/home/storager/6bbc84c2-18fb-444e-a900-d7ed884a2731/live/0001_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央2高清
+http://111.225.113.218:808/tsfile/live/0002_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央3标清
+http://111.225.113.218:808/tsfile/live/0003_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央4高清
+http://111.225.113.218:808/tsfile/live/0004_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央5标清
+http://111.225.113.218:808/tsfile/live/0005_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央6标清
+http://111.225.113.218:808/tsfile/live/0006_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央7高清
+http://111.225.113.218:808/tsfile/live/0007_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央8标清
+http://111.225.113.218:808/tsfile/live/0008_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央9高清
+http://111.225.113.218:808/tsfile/live/0009_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央10高清
+http://111.225.113.218:808/tsfile/live/0010_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央11高清
+http://111.225.113.218:808/tsfile/live/0011_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央12高清
+http://111.225.113.218:808/tsfile/live/0012_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央13高清
+http://111.225.113.218:808/tsfile/live/0013_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央14高清
+http://111.225.113.218:808/tsfile/live/0014_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央15高清
+http://111.225.113.218:808/tsfile/live/0015_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央17高清
+http://111.225.113.218:808/tsfile/live/0016_1.m3u8?key=txiptv
+#EXTINF:-1 group-title="央视卫视3",中央5+高清
+http://111.225.113.218:808/tsfile/live/0017_1.m3u8?key=txiptv
+
+
 
 #EXTINF:-1,CGTN Arabic
 https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
