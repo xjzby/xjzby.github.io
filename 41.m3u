@@ -97,7 +97,10 @@ https://jwliveqxzb.hebyun.com.cn/hdgg/hdgg.m3u8
 https://jwliveqxzb.hebyun.com.cn/hdkj/hdkj.m3u8
 
 
-
+#EXTINF:-1  group-title="港澳",纬来体育
+https://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130
+#EXTINF:-1  group-title="港澳",纬来体育
+https://cloud.yumixiu768.com/tmp/123.m3u8
 
 #EXTINF:-1 group-title="央视+卫视11",CCTV1-综合
 http://101.228.122.236:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
