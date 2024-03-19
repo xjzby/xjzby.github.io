@@ -382,7 +382,8 @@ http://111.225.113.218:808/tsfile/live/1039_1.m3u8?key=txiptv
 
 
 
-
+#EXTINF:-1,星空卫视
+http://line.premiumpowers.net/play/live.php?mac=00:1A:79:73:45:10&extension=ts&stream=683118
 #EXTINF:-1  group-title="港澳",点掌财经
 https://wsvideo.aniu.tv/live/aniu/playlist.m3u8
 #EXTINF:-1  group-title="港澳" tvg-logo="https://wtv.tools.yigechengzi.com/api/v1/tvg/logo/香港卫视" tvg-id="香港卫视" tvg-name="香港卫视" group-title="🦄海外频道2",香港卫视
