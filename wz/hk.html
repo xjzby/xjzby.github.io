@@ -298,23 +298,38 @@
 
 
     // 会话超时后自动登出
-    // let inactivityTime = function() {
-    //     let time;
-    //     window.onload = resetTimer;
-    //     document.onmousemove = resetTimer;
-    //     document.onkeypress = resetTimer;
+    let inactivityTime = function() {
+        let time;
+        window.onload = resetTimer;
+        document.onmousemove = resetTimer;
+        document.onkeypress = resetTimer;
 
-    //     function logout() {
-    //         window.location.href = '/logout.php';
-    //     }
+        function logout() {
+            window.location.href = '/login.html';
+        }
 
-    //     function resetTimer() {
-    //         clearTimeout(time);
-    //         time = setTimeout(logout, 300000); // 10分钟
-    //     }
-    // };
+        function resetTimer() {
+            clearTimeout(time);
+            time = setTimeout(logout, 300000); // 10分钟
+        }
+    };
 
-    // inactivityTime();
+    inactivityTime();
+    setTimeout(()=>{
+        document.querySelector('cloudflare-app').remove();
+        document.querySelector('cloudflare-app').remove();
+    
+    },500)
+    setTimeout(()=>{
+        document.querySelector('cloudflare-app').remove();
+        document.querySelector('cloudflare-app').remove();
+    
+    },1000)
+    setTimeout(()=>{
+        document.querySelector('cloudflare-app').remove();
+        document.querySelector('cloudflare-app').remove();
+    
+    },2000)
 </script>
 </body>
 </html>
