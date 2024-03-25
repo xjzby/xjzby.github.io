@@ -630,18 +630,7 @@ id="customAlert"
       document.getElementById("customAlert").style.display = "block";
     }
 
-    function closeAlert() {
-        submitloginpassword.value ='';
-        submitloginpasswordga.value = '';
-      setTimeout(() => {
-        if(alertMessage.textContent == '验证成功，点击确认进入'){
-            document.getElementById("customAlert").style.display = "none";
-            window.location.href = "./Multicast.html";
-      }else{
-        document.getElementById("customAlert").style.display = "none";
-      }
-      }, 300);
-    }
+ 
     // 修改后的复制按钮逻辑，包括添加 JWT 到 URL
     document.querySelectorAll('.copyButton').forEach(function(button) {
         button.addEventListener('click', function() {
