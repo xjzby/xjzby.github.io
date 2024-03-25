@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>播放器使用说明</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #50b3a2; color: white; padding-top: 30px; min-height: 70px; border-bottom: #e8491d 3px solid; }
+        header a { color: #ffffff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+        header ul { padding: 0; list-style: none; text-align: center; }
+        header li { display: inline; padding: 0 20px; }
+        header #branding { float: left; }
+        header #branding h1 { margin: 0; }
+        header nav { float: right; margin-top: 10px; }
+        header .highlight, header .current a { color: #e8491d; font-weight: bold; }
+        header a:hover { color: #ffffff; font-weight: bold; }
+
+        .centered-link {
+            text-align: center; /* 居中显示链接 */
+            margin-top: 20px; /* 在链接上方添加一些空间 */
+        }
+        .custom-alert {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        z-index: 1000;
+        width: 300px;
+        text-align: center;
+      }
+      .custom-alert h3 {
+        color: #5563de;
+        margin-bottom: 20px;
+      }
+      .custom-alert p {
+        color: #333;
+        margin-bottom: 25px;
+      }
+      .custom-alert button {
+        background-color: #00bfff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+      .custom-alert button:hover {
+        background-color: #008cbf;
+      }
+      #user{
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">直播源</span> 使用说明</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="./index.html">主页</a></li>
+                    <li id="user">联系我们</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 将链接放置在这里并居中显示 -->
+        <div class="centered-link">
+            <p><a href="https://gyssi.link/sm.html">查看使用说明文档</a></p>
+        </div>
+
+        <p>复制地址后，使用以下推荐的播放器或者您熟悉的播放器进行播放：</p>
+        <ul>
+            <li>电脑: <a href="https://potplayer.daum.net/" target="_blank"><strong>PotPlayer</strong></a>, <a href="https://www.videolan.org/vlc/index.html" target="_blank"><strong>VLC media player</strong></a></li>
+            <li>安卓: <a href="https://play.google.com/store/apps/details?id=ar.tvplayer.tv" target="_blank"><strong>TIVImate</strong></a></li>
+            <li>苹果: <strong>aptv</strong> (无法提供官方链接，可能需要在App Store搜索)</li>
+        </ul>
+        <p><strong>直播源7X24小时自动维护更新</strong>。由于服务器在国外，播放状态仅供参考。许多地址限制了国外连接，一直找不到解决办法。</p>
+        <p><strong>重要提醒</strong>：分享系统定期更换登录账号密码！国内论坛不再更新账号密码。</p>
+    </div>
+    <div
+    class="custom-alert"
+    id="customAlert"
+  >
+    <h3>提示信息</h3>
+    <p id="alertMessage">这里是消息内容</p>
+    <button onclick="closeAlert()">确定</button>
+  </div>
+</body>
+<script>
+    user.addEventListener('click', function() {
+        showAlert("请联系客服,QQ:838756854");
+    });
+    function showAlert(message) {
+        console.log(message);
+        document.getElementById("alertMessage").textContent = message;
+        document.getElementById("customAlert").style.display = "block";
+      }
+
+      function closeAlert() {
+        document.getElementById("customAlert").style.display = "none";
+        if(alertMessage.textContent == '验证成功，点击确认进入'){
+            window.location.href = "./index.html";
+        }
+      }
+</script>
+</html>

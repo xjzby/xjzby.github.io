@@ -1,0 +1,630 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>全国组播IPTV系统</title>
+     <!-- 添加网站图标链接 -->
+    <link rel="icon" href="/iptv/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/iptv/logo.ico" type="image/x-icon">
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    background-image: url(http://zcanjzby.org.edu.kg/wz/1.jpg) !important;
+}
+
+.page-title {
+    text-align: center;
+    margin: 40px 0;
+    color: #007bff; /* 深蓝色 */
+    font-size: 2.5em; /* 增加字体大小 */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* 添加文本阴影 */
+}
+
+#m3u-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.m3u-item {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.m3u-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.m3u-item h3 {
+    font-size: 1.2em;
+    color: #0088cc;
+    margin-bottom: 15px;
+}
+
+.m3u-item p {
+    color: #666;
+}
+
+.m3u-item button {
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.m3u-item button:active {
+    background-color: #0077b3;
+}
+
+.m3u-item button:hover {
+    background-color: #0099dd;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    background: linear-gradient(to right, #ff6347, #ffcc00, #4caf50);
+    height: 100%;
+    border-radius: 5px;
+    width: 50%; /* 初始宽度 */
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    transition: width 0.5s ease-in-out;
+}
+
+.stream-status {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+.online {
+    background-color: #4CAF50;
+}
+
+.offline {
+    background-color: #f44336;
+}
+        body.dark-mode {
+            background-color: #121212;
+            color: #fff;
+        }
+        body.dark-mode .m3u-item {
+            background: #333;
+            border-color: #444;
+        }
+        .dropdown {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+        #dropdownButton {
+            background-color: #00bfff;
+            color: white;
+            padding: 10px 15px;
+            font-size: 1em;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    
+        }
+        
+         .center-link {
+    text-align: center; /* 居中文本 */
+    margin: 20px 0; /* 添加一些外边距 */
+             }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #f9f9f9;
+            min-width: 200px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            border-radius: 5px;
+            padding: 10px 0;
+            z-index: 1;
+        }
+        .dropdown-content.show {
+            display: block;
+        }
+        .dropdown-content .dropdown-item {
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 200px; /* 添加固定宽度 */
+    min-height: 50px; /* 添加最小高度 */
+}
+        .dropdown-content .dropdown-item:hover {
+            background-color: #ddd;
+        }
+        .dropdown-content .dropdown-item a, 
+        .dropdown-content .dropdown-item button {
+            border: none;
+            background-color: transparent;
+            color: #00bfff;
+            padding: 8px 0;
+            width: 100%;
+            text-align: left;
+        }
+        
+        body {
+    background: linear-gradient(to right, #ffffff, #e6e9f0); /* 轻柔的蓝白渐变背景 */
+}
+        .dropdown-content .search-box {
+            padding: 0 15px;
+        }
+        .dropdown-content .search-box input[type="text"] {
+            width: 90%;
+            padding: 5px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button id="dropdownButton">系统菜单</button>
+        <div class="dropdown-content">
+
+            <!-- 替换这部分 -->
+    <div class="dropdown-item">
+            <!-- <input type="submit" id="submitlogin" value="进入全国酒店首页"> -->
+            <a href="./index.html" style="
+            text-align: center;
+            display: block;
+            text-decoration: none;
+        ">进入全国酒店首页</a>
+    </div>
+                <a href="./login.html" style="
+                text-align: center;
+                display: block;
+                text-decoration: none;
+            ">退出登录</a>
+            </div>
+        </div>
+    <div class="page-title">
+        <a href="./Multicast.html" style="text-decoration: none; color: inherit;">
+            全国组播IPTV系统
+        </a>
+    </div>
+        
+        <!-- 在这里添加新的链接 -->
+<div class="center-link">
+    <p><a style="color: #fff;text-decoration: none;"href="./wd.html">查看使用说明文档</a></p>
+</div>
+
+<div id="m3u-list">
+    <div class="m3u-item" data-filename="上海.m3u">
+<h3>
+    上海.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:09</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/上海.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 51%;">负载均衡: 51%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="北京.m3u">
+<h3>
+    北京.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:02</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/北京.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 58%;">负载均衡: 58%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="四川.m3u">
+<h3>
+    四川.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:04:55</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/四川.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 66%;">负载均衡: 66%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="天津.m3u">
+<h3>
+    天津.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:05</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/天津.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 74%;">负载均衡: 74%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="安徽.m3u">
+<h3>
+    安徽.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:04:54</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/安徽.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 56%;">负载均衡: 56%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="山东.m3u">
+<h3>
+    山东.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:05</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/山东.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 65%;">负载均衡: 65%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="山西.m3u">
+<h3>
+    山西.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:39</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/山西.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 57%;">负载均衡: 57%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="广东1.m3u">
+<h3>
+    广东1.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:02:47</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/广东1.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 58%;">负载均衡: 58%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="广东2.m3u">
+<h3>
+    广东2.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:33:22</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/广东2.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 44%;">负载均衡: 44%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="广东3.m3u">
+<h3>
+    广东3.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 17:03:55</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/广东3.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 68%;">负载均衡: 68%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="广西壮族自治区.m3u">
+<h3>
+    广西壮族自治区.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:09</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/广西壮族自治区.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 77%;">负载均衡: 77%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="江苏.m3u">
+<h3>
+    江苏.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:05</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/江苏.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 64%;">负载均衡: 64%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="河北.m3u">
+<h3>
+    河北.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:26</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/河北.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 51%;">负载均衡: 51%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="河南.m3u">
+<h3>
+    河南.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:15</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/河南.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 57%;">负载均衡: 57%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="浙江.m3u">
+<h3>
+    浙江.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:04:55</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/浙江.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 74%;">负载均衡: 74%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="湖北.m3u">
+<h3>
+    湖北.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:32</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/湖北.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 79%;">负载均衡: 79%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="湖南1.m3u">
+<h3>
+    湖南1.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:04:25</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/湖南1.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 50%;">负载均衡: 50%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="湖南2.m3u">
+<h3>
+    湖南2.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:04:46</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/湖南2.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 65%;">负载均衡: 65%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="甘肃.m3u">
+<h3>
+    甘肃.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:04:53</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/甘肃.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 50%;">负载均衡: 50%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="福建.m3u">
+<h3>
+    福建.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:04:56</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/福建.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 85%;">负载均衡: 85%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="辽宁.m3u">
+<h3>
+    辽宁.m3u                    <span class="stream-status offline">
+        维护中...                    </span>
+</h3>
+<p>更新时间：2024-03-24 12:04:06</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/辽宁.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 59%;">负载均衡: 59%</div>
+</div>
+</div>
+    <div class="m3u-item" data-filename="重庆.m3u">
+<h3>
+    重庆.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:06:07</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/重庆.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 61%;">负载均衡: 61%</div>
+</div>
+<script data-ziji='123'src="http://zcanjzby.org.edu.kg/wz/jquery.js"></script>
+</div>
+    <div class="m3u-item" data-filename="陕西.m3u">
+<h3>
+    陕西.m3u                    <span class="stream-status online">
+        状态:正常                    </span>
+</h3>
+<p>更新时间：2024-03-24 16:05:03</p>
+<button class="copyButton" data-address="http://zcanjzby.org.edu.kg/wz/live/陕西.m3u">
+    复制地址
+    <span class="copy-message"></span>
+</button>
+<script data-ziji='123'src="./jquery.js"></script>
+<div class="progress-bar">
+    <div class="progress-bar-fill" style="width: 63%;">负载均衡: 63%</div>
+</div>
+</div>
+</div>
+    <script>
+    // 修改后的复制按钮逻辑，包括添加 JWT 到 URL
+    document.querySelectorAll('.copyButton').forEach(function(button) {
+        button.addEventListener('click', function() {
+            var address = this.getAttribute('data-address');
+            var fullAddress = address + '?token=' + localStorage.getItem('tokens');
+            
+            navigator.clipboard.writeText(fullAddress).then(function() {
+                button.querySelector('.copy-message').textContent = '复制成功!';
+                setTimeout(function() {
+                    button.querySelector('.copy-message').textContent = '';
+                }, 2000);
+            }, function(err) {
+                button.querySelector('.copy-message').textContent = '复制失败!';
+                setTimeout(function() {
+                    button.querySelector('.copy-message').textContent = '';
+                }, 2000);
+            });
+        });
+    });
+
+    // 下拉菜单的逻辑
+    document.getElementById('dropdownButton').addEventListener('click', function() {
+        document.querySelector('.dropdown-content').classList.toggle('show');
+    });
+
+    window.onclick = function(event) {
+        if (!event.target.matches('#dropdownButton') && !event.target.matches('.dropdown-content') && !event.target.closest('.dropdown-content')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            for (var i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    };
+
+    // 随机负载条的动画
+    function randomizeLoadBars() {
+        var items = document.querySelectorAll('.m3u-item .progress-bar-fill');
+        items.forEach(function(bar) {
+            var randomLoad = Math.floor(Math.random() * 46) + 40; // 85 - 40 + 1
+            bar.style.width = randomLoad + '%'; 
+            bar.textContent = '负载均衡: ' + randomLoad + '%'; 
+        });
+    }
+
+    setInterval(randomizeLoadBars, 9000);
+
+
+
+
+
+    // 会话超时后自动登出
+    // let inactivityTime = function() {
+    //     let time;
+    //     window.onload = resetTimer;
+    //     document.onmousemove = resetTimer;
+    //     document.onkeypress = resetTimer;
+
+    //     function logout() {
+    //         window.location.href = '/logout.php';
+    //     }
+
+    //     function resetTimer() {
+    //         clearTimeout(time);
+    //         time = setTimeout(logout, 300000); // 10分钟
+    //     }
+    // };
+
+    // inactivityTime();
+</script>
+</body>
+</html>
